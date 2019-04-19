@@ -1,0 +1,39 @@
+H1   {
+  color: rgb(0, 53, 128);
+  margin: 30px 5px;
+}
+
+h4  {
+  color: rgb(0, 105, 217);
+}
+
+h3  {
+  color: green;
+}
+
+#movieTicket {
+  display: none;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 300px;
+  text-align: center;
+}
+
+#movieName   {
+  margin-bottom: 15px;
+}
+
+#movieTime   {
+  margin-bottom: 15px;
+}
+
+#userAge   {
+  margin-bottom: 25px;
+}
+.print   {
+  font-size: 0.75rem
+}
+
+.btn  {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/script.js"></script>
+    <title>eTicket Box</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>eTicket Box</h1>
+      <form id="ticket">
+        <div class="form-group">
+
+          <label for="firstNameInput">First name:</label>
+          <input type="text" class="form-control" id="firstNameInput" placeholder="First name">
+        </div>
+        <div class="form-group">
+          <label for="lastNameInput">Last name:</label>
+          <input type="text" class="form-control" id="lastNameInput" placeholder="Last name">
+        </div>
+        <div class="form-group">
+          <label class="control-label">Email:</label>
+          <input type="text" class="form-control" name="email" id="email" placeholder="email@example.com">
+        </div>
+        <div class="form-group">
+          <label for="movieName">Movie name: </label>
+          <select class="form-control" id="movieName">
+            <option value="00" id="chooseMovie" placeholder="Choose">Choose</option>
+            <option value="0">Frozen</option>
+            <option value="1">Alladin</option>
+            <option value="2">Lion King</option>
+            <option value="3">Beauthy & the Beast</option>
+          </select>
+          <label for="movieTime">Movie time: </label>
+          <select class="form-control" id="movieTime">
+            <option value="1100">11:00am</option>
+            <option value="1400">2:00pm</option>
+            <option value="1700">5:00pm</option>
+            <option value="2100">9:00pm</option>
+          </select>
+          <label for="userAge">What's yout age?</label>
+          <select class="form-control" id="userAge">
+            <option value="12">Child/Senior Ticket</option>
+            <option value="13">Adult Ticket</option>
+          </select>
+          <h4>Delivery Method</h4>
+          <p>This venue only provides eTickets.</p>
+          <button class="btn btn-success" type="submit">Get eTicket</button>
+          <p class="print">Print your eTickets and take them with you to the venue.</p>
+        </div>
+      </form>
+      <div id = "movieTicket">
+        <h3>Your eTicket is on your way!</h3>
+      </div>
+    </div>
+  </body>
+</html>
