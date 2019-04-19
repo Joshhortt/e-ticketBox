@@ -7,7 +7,7 @@ _By **Josh Hortt**_
 
 ## Goal
 
-_Continue to practice **implementing **jQuery** and developing good organizational habits of separating the_<br/>
+_Continue to practice **implementing jQuery** and developing good organizational habits of separating the_<br/>
 _**front and back-end** code by adding additional features to this ongoing project_.
 
 ## Description
